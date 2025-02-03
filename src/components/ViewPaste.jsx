@@ -27,7 +27,7 @@ console.log(paste);
           className="p-1 rounded-2xl border-2 mt-2 w-[66%] pl-2"
           type="text"
           placeholder="enter title here"
-          // value={paste[0].title}
+           value={paste[0].title}
           disabled
           onChange={(e) => setTitle(e.target.value)}
         />
@@ -39,7 +39,7 @@ console.log(paste);
       <div className="mt-7 ">
         <textarea
           className="rounded-2xl mt-4 min-w-[500px] p-4 "
-         // value={paste[0].content}
+         value={paste[0].content}
           placeholder="Write some text"
           disabled
           onChange={(e) => setValue(e.target.value)}
